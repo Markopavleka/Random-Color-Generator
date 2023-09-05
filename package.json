@@ -1,17 +1,21 @@
 {
-  "name": "Random-Color-Generator",
+  "name": "Random Color Generator",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "Random Color Generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Marko",
+  "license": "MIT",
   "devDependencies": {
     "eslint-config-upleveled": "^5.0.4",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "randomcolor": "^0.6.2"
   }
 }
